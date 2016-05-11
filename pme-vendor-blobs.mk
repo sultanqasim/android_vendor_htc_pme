@@ -14,20 +14,18 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/htc/pme/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
+    vendor/htc/pme/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/pme/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/htc/pme/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/htc/pme/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/pme/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/pme/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/pme/proprietary/bin/radish:system/bin/radish \
     vendor/htc/pme/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/pme/proprietary/bin/thermal-monitor:system/bin/thermal-monitor \
-    vendor/htc/pme/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/htc/pme/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    vendor/htc/pme/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    vendor/htc/pme/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    vendor/htc/pme/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/htc/pme/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    vendor/htc/pme/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/htc/pme/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/htc/pme/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/htc/pme/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/htc/pme/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/htc/pme/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -164,11 +162,27 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/htc/pme/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/htc/pme/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/htc/pme/proprietary/etc/hldm.bin:system/etc/hldm.bin \
+    vendor/htc/pme/proprietary/etc/hltof.bin:system/etc/hltof.bin \
+    vendor/htc/pme/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
+    vendor/htc/pme/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/pme/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/htc/pme/proprietary/lib/hw/fingerprint.msm8996.so:system/lib/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
+    vendor/htc/pme/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
+    vendor/htc/pme/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
+    vendor/htc/pme/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
+    vendor/htc/pme/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/pme/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/htc/pme/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/htc/pme/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/htc/pme/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/htc/pme/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -182,11 +196,18 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
+    vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
+    vendor/htc/pme/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/htc/pme/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/pme/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/htc/pme/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/htc/pme/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/pme/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/pme/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/htc/pme/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/vendor/firmware/libpn548_fw.so \
     vendor/htc/pme/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
