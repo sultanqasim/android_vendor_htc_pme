@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/htc/pme/proprietary/lib/libmorpho_movie_stabilizer4.so:system/lib/libmorpho_movie_stabilizer4.so \
     vendor/htc/pme/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+    vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
@@ -204,6 +205,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/htc/pme/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/pme/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
