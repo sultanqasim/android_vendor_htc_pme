@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/pme/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/htc/pme/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/htc/pme/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/htc/pme/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/htc/pme/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/htc/pme/proprietary/bin/qseecomd:system/bin/qseecomd \
