@@ -12,4 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+# Pick up overlay for features that depend on non-open-source files
+PRODUCT_PACKAGES += \
+    TimeService \
+    libril \
+    libtime_genoff \
+    libTimeService
+
 $(call inherit-product, vendor/htc/pme/pme-vendor-blobs.mk)
