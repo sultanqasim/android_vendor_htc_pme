@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/radish:system/bin/radish \
     vendor/htc/pme/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/htc/pme/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/htc/pme/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/htc/pme/proprietary/bin/thermal-monitor:system/bin/thermal-monitor \
     vendor/htc/pme/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/pme/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
