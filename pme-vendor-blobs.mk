@@ -197,8 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
     vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/htc/pme/proprietary/lib/libsdmcore.so:system/lib/libsdmcore.so \
-    vendor/htc/pme/proprietary/lib/libsdmutils.so:system/lib/libsdmutils.so \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
@@ -211,8 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/htc/pme/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
-    vendor/htc/pme/proprietary/lib64/libsdmcore.so:system/lib64/libsdmcore.so \
-    vendor/htc/pme/proprietary/lib64/libsdmutils.so:system/lib64/libsdmutils.so \
     vendor/htc/pme/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
