@@ -14,9 +14,15 @@
 
 PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/htc/pme/proprietary/bin/cnd:system/bin/cnd \
+    vendor/htc/pme/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/htc/pme/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/htc/pme/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/htc/pme/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/htc/pme/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/htc/pme/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/htc/pme/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/htc/pme/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/htc/pme/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/htc/pme/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/htc/pme/proprietary/bin/pm-service:system/bin/pm-service \
